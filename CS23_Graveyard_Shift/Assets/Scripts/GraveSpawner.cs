@@ -22,7 +22,8 @@ public class GraveSpawner : MonoBehaviour {
                 Random.Range(-spawnPosition.y, spawnPosition.y)
             );
             for (int j = 0; j < i; j++) {
-                if (Vector2.Distance(spawnPos, SpawnPoints[j]) < 2.0f) {
+                if (Vector2.Distance(spawnPos, SpawnPoints[j]) < 2.0f ||
+                    Vector2.Distance(spawnPos, Vector2.zero) < 3.0f) {
                     spawnPos = new Vector2(
                         Random.Range(-spawnPosition.x, spawnPosition.x),
                         Random.Range(-spawnPosition.y, spawnPosition.y)
