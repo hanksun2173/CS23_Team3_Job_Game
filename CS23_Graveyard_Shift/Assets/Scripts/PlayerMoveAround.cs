@@ -6,6 +6,7 @@ public class PlayerMoveAround : MonoBehaviour
 {
     //public Animator anim;
     //public AudioSource WalkSFX;
+    public GameObject InteractionText;
     public Rigidbody2D rb2D;
     private bool FaceRight = true; // determine which way player is facing.
     public static float runSpeed = 10f;
@@ -16,19 +17,32 @@ public class PlayerMoveAround : MonoBehaviour
     void Start() {
         //anim = gameObject.GetComponentInChildren<Animator>();
         rb2D = transform.GetComponent<Rigidbody2D>();
+        InteractionText.SetActive(false);
     }
 
     void Update() {
         HandleMovement();
-
     }
 
-    private void FixedUpdate() {
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Grave") {
+            InteractionText.SetActive(true);
+        }
+       
+    }
+    
+    void OnCollisionExit2D(Collision2D collision) {
+        if (collision.gameObject.tag == "Grave") {
+            InteractionText.SetActive(false);
+        }
+    }
+
+    private void FixedUpdate()
+    {
         rb2D.MovePosition(transform.position + moveDirection * runSpeed * Time.fixedDeltaTime);
     }
 
-    private void playerTurn()
-    {
+    private void playerTurn() {
         // NOTE: Switch player facing label
         FaceRight = !FaceRight;
 
