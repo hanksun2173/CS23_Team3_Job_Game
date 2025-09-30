@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - EnemyHealth
+  - Fence
+  - Grave
+  - GameHandler
   layers:
   - Default
   - TransparentFX

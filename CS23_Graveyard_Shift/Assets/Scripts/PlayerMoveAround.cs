@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMoveAround : MonoBehaviour
 {
@@ -13,26 +15,33 @@ public class PlayerMoveAround : MonoBehaviour
     public float startSpeed = 10f;
     public bool isAlive = true;
     private Vector3 moveDirection;
+    public GameHandler gameHandler;
 
-    void Start() {
+    void Start()
+    {
         //anim = gameObject.GetComponentInChildren<Animator>();
         rb2D = transform.GetComponent<Rigidbody2D>();
         InteractionText.SetActive(false);
     }
 
-    void Update() {
+    void Update()
+    {
         HandleMovement();
     }
 
-    void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.tag == "Grave") {
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Grave")
+        {
             InteractionText.SetActive(true);
         }
-       
+
     }
-    
-    void OnCollisionExit2D(Collision2D collision) {
-        if (collision.gameObject.tag == "Grave") {
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Grave")
+        {
             InteractionText.SetActive(false);
         }
     }
@@ -42,7 +51,8 @@ public class PlayerMoveAround : MonoBehaviour
         rb2D.MovePosition(transform.position + moveDirection * runSpeed * Time.fixedDeltaTime);
     }
 
-    private void playerTurn() {
+    private void playerTurn()
+    {
         // NOTE: Switch player facing label
         FaceRight = !FaceRight;
 
@@ -52,9 +62,11 @@ public class PlayerMoveAround : MonoBehaviour
         transform.localScale = theScale;
     }
 
-    void HandleMovement() {
+    void HandleMovement()
+    {
         moveDirection = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
-        if (isAlive == true) {
+        if (isAlive == true)
+        {
 
             if ((Input.GetAxis("Horizontal") != 0) || (Input.GetAxis("Vertical") != 0))
             {
@@ -76,4 +88,6 @@ public class PlayerMoveAround : MonoBehaviour
             }
         }
     }
+
+
 }
