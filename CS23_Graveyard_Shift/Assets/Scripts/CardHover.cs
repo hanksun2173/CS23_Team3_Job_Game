@@ -36,7 +36,9 @@ public class CardHover : MonoBehaviour
     {
         EnemyHealthValue -= 1;
         // EnemyHealth.GetComponent<UnityEngine.UI.Text>().text = score.ToString();
-        
+
+        EnemyHealth.text = EnemyHealthValue.ToString();
+
     }
 
 }
