@@ -1,19 +1,20 @@
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class CardHover : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Vector3 initialScale;
-    // public GameObject EnemyHealth;
-    public TMP_Text EnemyHealth;
-    private int EnemyHealthValue;
+    public GameObject EnemyHealth;
     void Start()
     {
         initialScale = transform.localScale;
-        // EnemyHealthValue = int.TryParse(EnemyHealth.GetComponent<Text>().text);
-        EnemyHealth = GetComponent<TextMeshProUGUI>();
-        int.TryParse(EnemyHealth.text, out int EnemyHealthValue);        
+        EnemyHealth.SetActive(true);
+        
     }
 
     // Update is called once per frame
@@ -34,11 +35,11 @@ public class CardHover : MonoBehaviour
 
     void OnMouseDown()
     {
+        int.TryParse(EnemyHealth.GetComponent<Text>().text, out int EnemyHealthValue);
+
         EnemyHealthValue -= 1;
-        // EnemyHealth.GetComponent<UnityEngine.UI.Text>().text = score.ToString();
 
-        EnemyHealth.text = EnemyHealthValue.ToString();
-
+        EnemyHealth.GetComponent<Text>().text = EnemyHealthValue.ToString();
     }
 
 }
