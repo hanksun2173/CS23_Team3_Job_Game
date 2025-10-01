@@ -369,6 +369,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 1110619065}
+  CardValueDisplay: {fileID: 0}
+  CardSuitDisplay: {fileID: 0}
 --- !u!1 &352663657
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +519,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 1110619065}
+  CardValueDisplay: {fileID: 0}
+  CardSuitDisplay: {fileID: 0}
 --- !u!1 &1110619065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 1110619065}
+  CardValueDisplay: {fileID: 0}
+  CardSuitDisplay: {fileID: 0}
 --- !u!1 &1521520937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1149,6 +1155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 1110619065}
+  CardValueDisplay: {fileID: 0}
+  CardSuitDisplay: {fileID: 0}
 --- !u!61 &1521520941
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1343,6 +1351,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 1110619065}
+  CardValueDisplay: {fileID: 0}
+  CardSuitDisplay: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

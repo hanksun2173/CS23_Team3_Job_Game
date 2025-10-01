@@ -1,0 +1,3292 @@
+fileFormatVersion: 2
+guid: 99b176948a4134d08bbed4d27a2e1db9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8531082176227072306
+    second: quitscreenBLOOD_0
+  - first:
+      213: -7615031323979788804
+    second: quitscreenBLOOD_1
+  - first:
+      213: -1475482515607245616
+    second: quitscreenBLOOD_2
+  - first:
+      213: -7847435249045849620
+    second: quitscreenBLOOD_3
+  - first:
+      213: -1674443214293774907
+    second: quitscreenBLOOD_4
+  - first:
+      213: -2677439515878684971
+    second: quitscreenBLOOD_5
+  - first:
+      213: -5916193694702536479
+    second: quitscreenBLOOD_6
+  - first:
+      213: -8757301280129881838
+    second: quitscreenBLOOD_7
+  - first:
+      213: 6386579546885202548
+    second: quitscreenBLOOD_8
+  - first:
+      213: -1746661989025773076
+    second: quitscreenBLOOD_9
+  - first:
+      213: 1878266897580514967
+    second: quitscreenBLOOD_10
+  - first:
+      213: 3519964375435161881
+    second: quitscreenBLOOD_11
+  - first:
+      213: -1375727145961719085
+    second: quitscreenBLOOD_12
+  - first:
+      213: -3600869435332842655
+    second: quitscreenBLOOD_13
+  - first:
+      213: 941941256136356126
+    second: quitscreenBLOOD_14
+  - first:
+      213: 5136102247806797005
+    second: quitscreenBLOOD_15
+  - first:
+      213: -5946955057777194294
+    second: quitscreenBLOOD_16
+  - first:
+      213: 8801222365875362428
+    second: quitscreenBLOOD_17
+  - first:
+      213: -2787663160582369490
+    second: quitscreenBLOOD_18
+  - first:
+      213: -8229440366845354999
+    second: quitscreenBLOOD_19
+  - first:
+      213: 8684874544673050821
+    second: quitscreenBLOOD_20
+  - first:
+      213: -6868931185651805593
+    second: quitscreenBLOOD_21
+  - first:
+      213: -54650888845864603
+    second: quitscreenBLOOD_22
+  - first:
+      213: 3632652719376768782
+    second: quitscreenBLOOD_23
+  - first:
+      213: -167767201240849040
+    second: quitscreenBLOOD_24
+  - first:
+      213: -5523155771154464195
+    second: quitscreenBLOOD_25
+  - first:
+      213: 6529843831324674562
+    second: quitscreenBLOOD_26
+  - first:
+      213: -554101486995666948
+    second: quitscreenBLOOD_27
+  - first:
+      213: 4715168958242071768
+    second: quitscreenBLOOD_28
+  - first:
+      213: -1285586058704714304
+    second: quitscreenBLOOD_29
+  - first:
+      213: 3813009886001446192
+    second: quitscreenBLOOD_30
+  - first:
+      213: -7107323699191528653
+    second: quitscreenBLOOD_31
+  - first:
+      213: -431796516213616230
+    second: quitscreenBLOOD_32
+  - first:
+      213: 6904375533147960339
+    second: quitscreenBLOOD_33
+  - first:
+      213: -6711562275192647605
+    second: quitscreenBLOOD_34
+  - first:
+      213: -5802519349222535449
+    second: quitscreenBLOOD_35
+  - first:
+      213: -3074039118215067715
+    second: quitscreenBLOOD_36
+  - first:
+      213: 868680714083717413
+    second: quitscreenBLOOD_37
+  - first:
+      213: 197591770765062350
+    second: quitscreenBLOOD_38
+  - first:
+      213: 2578264535600808154
+    second: quitscreenBLOOD_39
+  - first:
+      213: 155788697688410176
+    second: quitscreenBLOOD_40
+  - first:
+      213: -250777166942083525
+    second: quitscreenBLOOD_41
+  - first:
+      213: -6387886166637852688
+    second: quitscreenBLOOD_42
+  - first:
+      213: -3125349402880306120
+    second: quitscreenBLOOD_43
+  - first:
+      213: -7567619015105820318
+    second: quitscreenBLOOD_44
+  - first:
+      213: -510005488288792370
+    second: quitscreenBLOOD_45
+  - first:
+      213: -4317809358093999829
+    second: quitscreenBLOOD_46
+  - first:
+      213: 214928477104567370
+    second: quitscreenBLOOD_47
+  - first:
+      213: 2784840602961855811
+    second: quitscreenBLOOD_48
+  - first:
+      213: 6108420353191317084
+    second: quitscreenBLOOD_49
+  - first:
+      213: -1555042607598520102
+    second: quitscreenBLOOD_50
+  - first:
+      213: -3934806931443323655
+    second: quitscreenBLOOD_51
+  - first:
+      213: 3609128916291455570
+    second: quitscreenBLOOD_52
+  - first:
+      213: -8198507209981107327
+    second: quitscreenBLOOD_53
+  - first:
+      213: 2169504904701947032
+    second: quitscreenBLOOD_54
+  - first:
+      213: 6282321880296705949
+    second: quitscreenBLOOD_55
+  - first:
+      213: 8868880930526595487
+    second: quitscreenBLOOD_56
+  - first:
+      213: -6645796706848353526
+    second: quitscreenBLOOD_57
+  - first:
+      213: -458932521209750714
+    second: quitscreenBLOOD_58
+  - first:
+      213: -1373515873040302824
+    second: quitscreenBLOOD_59
+  - first:
+      213: -6229672454899971703
+    second: quitscreenBLOOD_60
+  - first:
+      213: -8070272644843582244
+    second: quitscreenBLOOD_61
+  - first:
+      213: 1600510465762339767
+    second: quitscreenBLOOD_62
+  - first:
+      213: -3097504324924634753
+    second: quitscreenBLOOD_63
+  - first:
+      213: -80077876937130834
+    second: quitscreenBLOOD_64
+  - first:
+      213: -116544856589363167
+    second: quitscreenBLOOD_65
+  - first:
+      213: 158490486374142114
+    second: quitscreenBLOOD_66
+  - first:
+      213: 7916007128710097226
+    second: quitscreenBLOOD_67
+  - first:
+      213: 4459140821928782433
+    second: quitscreenBLOOD_68
+  - first:
+      213: 3247279844446705543
+    second: quitscreenBLOOD_69
+  - first:
+      213: -9024482712068550369
+    second: quitscreenBLOOD_70
+  - first:
+      213: -4383664174857023983
+    second: quitscreenBLOOD_71
+  - first:
+      213: -1433935796635148848
+    second: quitscreenBLOOD_72
+  - first:
+      213: 5704663455032327592
+    second: quitscreenBLOOD_73
+  - first:
+      213: -6300047415077729853
+    second: quitscreenBLOOD_74
+  - first:
+      213: 8230274503200623619
+    second: quitscreenBLOOD_75
+  - first:
+      213: 4903325946804442450
+    second: quitscreenBLOOD_76
+  - first:
+      213: -4560659985963628485
+    second: quitscreenBLOOD_77
+  - first:
+      213: -2607119518923306474
+    second: quitscreenBLOOD_78
+  - first:
+      213: 1142968887212481006
+    second: quitscreenBLOOD_79
+  - first:
+      213: -5944759316132351153
+    second: quitscreenBLOOD_80
+  - first:
+      213: 2860166989857900101
+    second: quitscreenBLOOD_81
+  - first:
+      213: 290031134072073596
+    second: quitscreenBLOOD_82
+  - first:
+      213: 2146855714716892247
+    second: quitscreenBLOOD_83
+  - first:
+      213: -227846913588542915
+    second: quitscreenBLOOD_84
+  - first:
+      213: -7525939051619695651
+    second: quitscreenBLOOD_85
+  - first:
+      213: 7020323286494442744
+    second: quitscreenBLOOD_86
+  - first:
+      213: -1517883184244473687
+    second: quitscreenBLOOD_87
+  - first:
+      213: -4578760891405216736
+    second: quitscreenBLOOD_88
+  - first:
+      213: 3963020549762323509
+    second: quitscreenBLOOD_89
+  - first:
+      213: -3963736082748333276
+    second: quitscreenBLOOD_90
+  - first:
+      213: -1716634845515448315
+    second: quitscreenBLOOD_91
+  - first:
+      213: -4878081366866950362
+    second: quitscreenBLOOD_92
+  - first:
+      213: 4778904307678210324
+    second: quitscreenBLOOD_93
+  - first:
+      213: -6561433508565571708
+    second: quitscreenBLOOD_94
+  - first:
+      213: -8930736808033661834
+    second: quitscreenBLOOD_95
+  - first:
+      213: -2780786997433424852
+    second: quitscreenBLOOD_96
+  - first:
+      213: -832548434151635327
+    second: quitscreenBLOOD_97
+  - first:
+      213: 9176570682055428924
+    second: quitscreenBLOOD_98
+  - first:
+      213: 258333051527720742
+    second: quitscreenBLOOD_99
+  - first:
+      213: -926312785015290587
+    second: quitscreenBLOOD_100
+  - first:
+      213: 2893054488759561806
+    second: quitscreenBLOOD_101
+  - first:
+      213: -808440769454324738
+    second: quitscreenBLOOD_102
+  - first:
+      213: 1544981470712947015
+    second: quitscreenBLOOD_103
+  - first:
+      213: -4335973147084945285
+    second: quitscreenBLOOD_104
+  - first:
+      213: -9056283137746689026
+    second: quitscreenBLOOD_105
+  - first:
+      213: -735423984698718151
+    second: quitscreenBLOOD_106
+  - first:
+      213: 7365089777697050998
+    second: quitscreenBLOOD_107
+  - first:
+      213: -6387794797337022834
+    second: quitscreenBLOOD_108
+  - first:
+      213: 469960991135268609
+    second: quitscreenBLOOD_109
+  - first:
+      213: -2858420347738806585
+    second: quitscreenBLOOD_110
+  - first:
+      213: -3869477581244395136
+    second: quitscreenBLOOD_111
+  - first:
+      213: -8035457790665633808
+    second: quitscreenBLOOD_112
+  - first:
+      213: -8351070933120432581
+    second: quitscreenBLOOD_113
+  - first:
+      213: -5374696502678100453
+    second: quitscreenBLOOD_114
+  - first:
+      213: 3228991087718222358
+    second: quitscreenBLOOD_115
+  - first:
+      213: -3088421360376163753
+    second: quitscreenBLOOD_116
+  - first:
+      213: -4400879073178491154
+    second: quitscreenBLOOD_117
+  - first:
+      213: 592227016860993951
+    second: quitscreenBLOOD_118
+  - first:
+      213: -6459716348427171718
+    second: quitscreenBLOOD_119
+  - first:
+      213: -6591201003175640681
+    second: quitscreenBLOOD_120
+  - first:
+      213: -3837090811806844440
+    second: quitscreenBLOOD_121
+  - first:
+      213: -6809040437343251156
+    second: quitscreenBLOOD_122
+  - first:
+      213: 5525125959989331964
+    second: quitscreenBLOOD_123
+  - first:
+      213: 5339176009185327633
+    second: quitscreenBLOOD_124
+  - first:
+      213: -5592922960688196556
+    second: quitscreenBLOOD_125
+  - first:
+      213: -4703514725466407284
+    second: quitscreenBLOOD_126
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: quitscreenBLOOD_0
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1047
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6a158d5f18b9980800000000000000
+      internalID: -8531082176227072306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_1
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1035
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd46b46b59f15690800000000000000
+      internalID: -7615031323979788804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1007
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc2ee03878068be0800000000000000
+      internalID: -1475482515607245616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_3
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 971
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce93ebee73f481390800000000000000
+      internalID: -7847435249045849620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_4
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 973
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdc477a4ce23c8e0800000000000000
+      internalID: -1674443214293774907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_5
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 977
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6057c22f2d7dad0800000000000000
+      internalID: -2677439515878684971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_6
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 913
+        width: 47
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e879d41e2575eda0800000000000000
+      internalID: -5916193694702536479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 975
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219e8c642e0d77680800000000000000
+      internalID: -8757301280129881838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 978
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4722ed5a240b1a850800000000000000
+      internalID: 6386579546885202548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_9
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 954
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce90179dc2c92c7e0800000000000000
+      internalID: -1746661989025773076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_10
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 947
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e59a7bac1f01a10800000000000000
+      internalID: 1878266897580514967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_11
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 939
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911b7db23fc69d030800000000000000
+      internalID: 3519964375435161881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_12
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 924
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daf61d137f68ece0800000000000000
+      internalID: -1375727145961719085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_13
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 873
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bac68a354270ec0800000000000000
+      internalID: -3600869435332842655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 500
+        width: 552
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11fa43f492721d00800000000000000
+      internalID: 941941256136356126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_15
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 789
+        width: 89
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc40c9a38c9174740800000000000000
+      internalID: 5136102247806797005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_16
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 874
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca4afd12eb287da0800000000000000
+      internalID: -5946955057777194294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_17
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 879
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a59336c19342a70800000000000000
+      internalID: 8801222365875362428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_18
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 743
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f8b08002b3059d0800000000000000
+      internalID: -2787663160582369490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_19
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 769
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c1ce976972bcd80800000000000000
+      internalID: -8229440366845354999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_20
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 720
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0d11a426fd68870800000000000000
+      internalID: 8684874544673050821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_21
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 716
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7621f94da77aca0a0800000000000000
+      internalID: -6868931185651805593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_22
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 677
+        width: 92
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561deaf5e47dd3ff0800000000000000
+      internalID: -54650888845864603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_23
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 690
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f1fc2d666c96230800000000000000
+      internalID: 3632652719376768782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_24
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 701
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075e31d8e98fbadf0800000000000000
+      internalID: -167767201240849040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 614
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32803dc61fc953b0800000000000000
+      internalID: -5523155771154464195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_26
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 611
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a02e43e5aae9a50800000000000000
+      internalID: 6529843831324674562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_27
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 639
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf78b1222af6f48f0800000000000000
+      internalID: -554101486995666948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_28
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 586
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4a7fb7f25af6140800000000000000
+      internalID: 4715168958242071768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_29
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 624
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c506ba7a4ea82ee0800000000000000
+      internalID: -1285586058704714304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_30
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 47
+        width: 486
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d3b240a488ae430800000000000000
+      internalID: 3813009886001446192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_31
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 576
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33349f570c6bd5d90800000000000000
+      internalID: -7107323699191528653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_32
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 655
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9116d33b53f10af0800000000000000
+      internalID: -431796516213616230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_33
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 625
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314be2967f441df50800000000000000
+      internalID: 6904375533147960339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_34
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 564
+        width: 62
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40da3b8badbbd2a0800000000000000
+      internalID: -6711562275192647605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_35
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 656
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee824b156f497fa0800000000000000
+      internalID: -5802519349222535449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_36
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 583
+        width: 41
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7c22d75b1d655d0800000000000000
+      internalID: -3074039118215067715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 541
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521513ac18c2e0c00800000000000000
+      internalID: 868680714083717413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_38
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 569
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0fdfa2bacfdb200800000000000000
+      internalID: 197591770765062350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_39
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 554
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad049755fe5d7c320800000000000000
+      internalID: 2578264535600808154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 560
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0480db1cef8792200800000000000000
+      internalID: 155788697688410176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_41
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 554
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3663aece7f058cf0800000000000000
+      internalID: -250777166942083525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 468
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f74beb306ba957a0800000000000000
+      internalID: -6387886166637852688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 401
+        width: 75
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8341752e64780a4d0800000000000000
+      internalID: -3125349402880306120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 507
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2694029c99a6af690800000000000000
+      internalID: -7567619015105820318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_45
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 479
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec00c05e5b81ce8f0800000000000000
+      internalID: -510005488288792370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_46
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 483
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2123faf34f0414c0800000000000000
+      internalID: -4317809358093999829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_47
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 521
+        width: 81
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44fee9af449bf200800000000000000
+      internalID: 214928477104567370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_48
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 488
+        width: 75
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34540af06cdb5a620800000000000000
+      internalID: 2784840602961855811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 465
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e0cba82f775c450800000000000000
+      internalID: 6108420353191317084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_50
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 467
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad83e73ccf06b6ae0800000000000000
+      internalID: -1555042607598520102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_51
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 451
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc639f71f1c469c0800000000000000
+      internalID: -3934806931443323655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_52
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 452
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a842c90a3361230800000000000000
+      internalID: 3609128916291455570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_53
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 454
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183e89c412d093e80800000000000000
+      internalID: -8198507209981107327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_54
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 439
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c2a3f5731ab1e10800000000000000
+      internalID: 2169504904701947032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_55
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 427
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fcfb7077a4f2750800000000000000
+      internalID: 6282321880296705949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_56
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 433
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99064b8738941b70800000000000000
+      internalID: 8868880930526595487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_57
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 423
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03d7d62b1365c3a0800000000000000
+      internalID: -6645796706848353526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_58
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 350
+        width: 112
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b1b61bd4b81a9f0800000000000000
+      internalID: -458932521209750714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_59
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 415
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7216379a40fce0800000000000000
+      internalID: -1373515873040302824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_60
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 427
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989c6a298e1cb89a0800000000000000
+      internalID: -6229672454899971703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_61
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 412
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdccb83a9c1a00090800000000000000
+      internalID: -8070272644843582244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_62
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 387
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb2f0be9c7263610800000000000000
+      internalID: 1600510465762339767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_63
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 406
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7981ae4a347305d0800000000000000
+      internalID: -3097504324924634753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_64
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 400
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac7bce589183eef0800000000000000
+      internalID: -80077876937130834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_65
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 341
+        width: 94
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12897960213f16ef0800000000000000
+      internalID: -116544856589363167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_66
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 411
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a01c94f142133200800000000000000
+      internalID: 158490486374142114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_67
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 405
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49a932fa8e4bdd60800000000000000
+      internalID: 7916007128710097226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_68
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 396
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a2286b3fc02ed30800000000000000
+      internalID: 4459140821928782433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_69
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 358
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787188e40d7a01d20800000000000000
+      internalID: 3247279844446705543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_70
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 362
+        width: 83
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11108189c892c280800000000000000
+      internalID: -9024482712068550369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_71
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 375
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e8a0b98a81a23c0800000000000000
+      internalID: -4383664174857023983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_72
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 370
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd58d28df2a91ce0800000000000000
+      internalID: -1433935796635148848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_73
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 360
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adba5010390b2f40800000000000000
+      internalID: 5704663455032327592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_74
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 337
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c98c2c414cb198a0800000000000000
+      internalID: -6300047415077729853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_75
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 297
+        width: 76
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c4a370e0fc73270800000000000000
+      internalID: 8230274503200623619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_76
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 370
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2551c3d38fc1c0440800000000000000
+      internalID: 4903325946804442450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_77
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 346
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38cc4bf7e745b0c0800000000000000
+      internalID: -4560659985963628485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_78
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 331
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac6935c96a1dbd0800000000000000
+      internalID: -2607119518923306474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_79
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 339
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee99f9fa524acdf00800000000000000
+      internalID: 1142968887212481006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_80
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 338
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43bcbe06e8ff7da0800000000000000
+      internalID: -5944759316132351153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_81
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 327
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54647c439ba51b720800000000000000
+      internalID: 2860166989857900101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_82
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 328
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d6b20a7c5660400800000000000000
+      internalID: 290031134072073596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_83
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 292
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cb7b3e5e92bcd10800000000000000
+      internalID: 2146855714716892247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_84
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 325
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32c264707686dcf0800000000000000
+      internalID: -227846913588542915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_85
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 252
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3c7f28e4e7e8790800000000000000
+      internalID: -7525939051619695651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_86
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 288
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f477e375d23d6160800000000000000
+      internalID: 7020323286494442744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_87
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 290
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0c19839456feae0800000000000000
+      internalID: -1517883184244473687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_88
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 296
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02457548a39f470c0800000000000000
+      internalID: -4578760891405216736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_89
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534182a613a7ff630800000000000000
+      internalID: 3963020549762323509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_90
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 275
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4232364980bfdf8c0800000000000000
+      internalID: -3963736082748333276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_91
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 258
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5008efff3b94d28e0800000000000000
+      internalID: -1716634845515448315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_92
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 278
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627817e87d29d4cb0800000000000000
+      internalID: -4878081366866950362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_93
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 248
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4196ebae524125240800000000000000
+      internalID: 4778904307678210324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_94
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 279
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487aa98ecfa11f4a0800000000000000
+      internalID: -6561433508565571708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_95
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 225
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cc5aea036af0480800000000000000
+      internalID: -8930736808033661834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_96
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 255
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24a4f585f8a869d0800000000000000
+      internalID: -2780786997433424852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_97
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 220
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18685143c913274f0800000000000000
+      internalID: -832548434151635327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_98
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 143
+        width: 100
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b8d207a6ab95f70800000000000000
+      internalID: 9176570682055428924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_99
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 222
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f6d0aaa88c59300800000000000000
+      internalID: 258333051527720742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_100
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 216
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525c24a0e631523f0800000000000000
+      internalID: -926312785015290587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_101
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 168
+        width: 115
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4eec5ebab1362820800000000000000
+      internalID: 2893054488759561806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_102
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 206
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef34bba4767d7c4f0800000000000000
+      internalID: -808440769454324738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_103
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 201
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741e7624670e07510800000000000000
+      internalID: 1544981470712947015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_104
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 140
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b788e5c456783d3c0800000000000000
+      internalID: -4335973147084945285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_105
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 104
+        width: 71
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3af3de77e915280800000000000000
+      internalID: -9056283137746689026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_106
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 136
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9380bb848cf3bc5f0800000000000000
+      internalID: -735423984698718151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_107
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 130
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6715e72812e063660800000000000000
+      internalID: 7365089777697050998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_108
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 130
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e63aec97ef957a0800000000000000
+      internalID: -6387794797337022834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_109
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f78ee0803a58600800000000000000
+      internalID: 469960991135268609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_110
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 114
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6a74a96d9d458d0800000000000000
+      internalID: -2858420347738806585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_111
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 107
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081179724aadc4ac0800000000000000
+      internalID: -3869477581244395136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_112
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffcabb86b15c7090800000000000000
+      internalID: -8035457790665633808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_113
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 94
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3644417b390b1c80800000000000000
+      internalID: -8351070933120432581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_114
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 85
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b166656d10e3965b0800000000000000
+      internalID: -5374696502678100453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_115
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 71
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ac85e494eafcc20800000000000000
+      internalID: 3228991087718222358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_116
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 70
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752dc0ac229b325d0800000000000000
+      internalID: -3088421360376163753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_117
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 49
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6eebfbccfece2c0800000000000000
+      internalID: -4400879073178491154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_118
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9983668553083800800000000000000
+      internalID: 592227016860993951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_119
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 37
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a780736c43a7a56a0800000000000000
+      internalID: -6459716348427171718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_120
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 24
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791848afb995784a0800000000000000
+      internalID: -6591201003175640681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_121
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 39
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e976578c3aefbac0800000000000000
+      internalID: -3837090811806844440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_122
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2592ee4ccd6181a0800000000000000
+      internalID: -6809040437343251156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_123
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 0
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7047889c03dac40800000000000000
+      internalID: 5525125959989331964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_124
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 22
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a77ccca40981a40800000000000000
+      internalID: 5339176009185327633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_125
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 2
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434dd082332f162b0800000000000000
+      internalID: -5592922960688196556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quitscreenBLOOD_126
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 6
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e71c80742c9beb0800000000000000
+      internalID: -4703514725466407284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
