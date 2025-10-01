@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 558e8f489cffa4e0a94f086d4870a67f
+guid: ea3add5dc696840d0abb00bf1e91e3d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3270583279919853565
-    second: Grave2__0
+      213: 359377310889749347
+    second: IMG_9982_0
+  - first:
+      213: -1283519026930314404
+    second: IMG_9982_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grave2__0
+      name: IMG_9982_0
       rect:
         serializedVersion: 2
-        x: 170
-        y: 351
-        width: 156
-        height: 252
+        x: 0
+        y: 0
+        width: 473
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +118,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dff64ff2a22736d20800000000000000
-      internalID: 3270583279919853565
+      spriteID: 36b2beb92c3ccf400800000000000000
+      internalID: 359377310889749347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_9982_1
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1
+        width: 475
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c531d51de36003ee0800000000000000
+      internalID: -1283519026930314404
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 85444fa8194ad423eb66603d3bb52be4
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IMG_9982_0: 359377310889749347
+      IMG_9982_1: -1283519026930314404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

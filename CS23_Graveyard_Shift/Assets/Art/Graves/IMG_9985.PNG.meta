@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4b200e09de6ed4ec78d13afc7e33bc11
+guid: 09b828de2cbf14b439418e29a68a0bea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2111740881851674586
-    second: Grave1__0
+      213: -3138965067494156078
+    second: IMG_9985_0
+  - first:
+      213: -3217904570657243121
+    second: IMG_9985_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Grave1__0
+      name: IMG_9985_0
       rect:
         serializedVersion: 2
-        x: 163
-        y: 327
-        width: 163
-        height: 264
+        x: 0
+        y: 0
+        width: 474
+        height: 677
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6209f8f3bd691b2e0800000000000000
-      internalID: -2111740881851674586
+      spriteID: 2d896ade6e72074d0800000000000000
+      internalID: -3138965067494156078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_9985_1
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 476
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f008ed897d4b753d0800000000000000
+      internalID: -3217904570657243121
       vertices: []
       indices: 
       edges: []
@@ -125,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 119fc6b92f67f48c08a3f96fc998d0db
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IMG_9985_0: -3138965067494156078
+      IMG_9985_1: -3217904570657243121
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9173169753644306058}
   - component: {fileID: 7642493699653415815}
   - component: {fileID: -4752075026689541334}
+  - component: {fileID: 3547073428643637052}
   m_Layer: 0
   m_Name: Grave1
   m_TagString: Grave
@@ -67,12 +68,12 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.63, y: 2.64}
-    newSize: {x: 3.6, y: 3.6}
+    oldSize: {x: 4.73, y: 6.77}
+    newSize: {x: 1.63, y: 2.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -123,14 +124,29 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2111740881851674586, guid: 4b200e09de6ed4ec78d13afc7e33bc11, type: 3}
+  m_Sprite: {fileID: 359377310889749347, guid: ea3add5dc696840d0abb00bf1e91e3d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.6, y: 3.6}
+  m_Size: {x: 1.63, y: 2.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3547073428643637052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675033864191457011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53b3e22690964e7fb2775afb633d1bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grave: {fileID: 0}
+  GraveID: 
+  DugGraveSprite: {fileID: -1283519026930314404, guid: ea3add5dc696840d0abb00bf1e91e3d3, type: 3}

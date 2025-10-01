@@ -788,6 +788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grave2
       objectReference: {fileID: 0}
+    - target: {fileID: 4052858646784555506, guid: f5f571dcce30d4be89875a86e5152be8, type: 3}
+      propertyPath: grave
+      value: 
+      objectReference: {fileID: 1541430005}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1133,6 +1137,11 @@ Transform:
   - {fileID: 831556098}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1302882972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6675033864191457011, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
+  m_PrefabInstance: {fileID: 8801339829555928439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1316355929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1308,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1541430005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2318768617793581336, guid: f5f571dcce30d4be89875a86e5152be8, type: 3}
+  m_PrefabInstance: {fileID: 1018695994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1607137272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,6 +1692,7 @@ MonoBehaviour:
   startSpeed: 10
   isAlive: 1
   gameHandler: {fileID: 0}
+  graveDig: {fileID: 0}
 --- !u!1001 &2085861667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1804,6 +1819,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3547073428643637052, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
+      propertyPath: grave
+      value: 
+      objectReference: {fileID: 1302882972}
     - target: {fileID: 6675033864191457011, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
       propertyPath: m_Name
       value: Grave1
@@ -1818,7 +1837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7642493699653415815, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
       propertyPath: m_Offset.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9173169753644306058, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
       propertyPath: m_LocalScale.x

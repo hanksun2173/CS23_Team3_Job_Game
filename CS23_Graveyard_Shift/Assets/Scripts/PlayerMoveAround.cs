@@ -16,6 +16,7 @@ public class PlayerMoveAround : MonoBehaviour
     public bool isAlive = true;
     private Vector3 moveDirection;
     public GameHandler gameHandler;
+    public GraveDig graveDig;
 
     void Start()
     {
@@ -35,7 +36,7 @@ public class PlayerMoveAround : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grave")
+        if (collision.gameObject.tag == "Grave" || graveDig.CanDigGrave() == true)
         {
             InteractionText.SetActive(true);
         }
@@ -44,7 +45,7 @@ public class PlayerMoveAround : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grave")
+        if (collision.gameObject.tag == "Grave" || graveDig.CanDigGrave() == false)
         {
             InteractionText.SetActive(false);
         }
