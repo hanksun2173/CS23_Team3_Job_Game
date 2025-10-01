@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f9356948b71414bcd840adc880ed342c
+guid: bce98fa41f23148d7b74fb49c862f01e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -234548559794647379
-    second: graver_0
+      213: 3572755476941858953
+    second: Walkcycle_Front08_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: graver_0
+      name: Walkcycle_Front08_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 623
-        height: 900
+        x: 309
+        y: 23
+        width: 476
+        height: 978
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dae4cdad357bebcf0800000000000000
-      internalID: -234548559794647379
+      spriteID: 98863705d2af49130800000000000000
+      internalID: 3572755476941858953
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      graver_0: -234548559794647379
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

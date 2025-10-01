@@ -22,6 +22,10 @@ public class PlayerMoveAround : MonoBehaviour
         //anim = gameObject.GetComponentInChildren<Animator>();
         rb2D = transform.GetComponent<Rigidbody2D>();
         InteractionText.SetActive(false);
+        
+        if (GameObject.FindWithTag("GameHandler") != null) {
+            gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
+        }
     }
 
     void Update()

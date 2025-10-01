@@ -1126,7 +1126,7 @@ Transform:
   m_GameObject: {fileID: 1247485724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -48, y: 0, z: 0}
+  m_LocalPosition: {x: -50, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1205,7 +1205,7 @@ Transform:
   m_GameObject: {fileID: 1316355929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 48, y: 0, z: 0}
+  m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 3, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1720,6 +1720,10 @@ PrefabInstance:
     - target: {fileID: 6675033864191457011, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
       propertyPath: m_Name
       value: Grave1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642493699653415815, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7642493699653415815, guid: d646da61b2ac3427c82c26508cb82b66, type: 3}
       propertyPath: m_Size.y

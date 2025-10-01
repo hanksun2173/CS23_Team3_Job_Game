@@ -24,7 +24,7 @@ public class GameHandler : MonoBehaviour
         }
     }
 
-    void AddHealth(int amount)
+    public void AddHealth(int amount)
     {
         playerHealth += amount;
         UpdateHealth();
@@ -33,7 +33,7 @@ public class GameHandler : MonoBehaviour
     public void RestartGame()
     {
         playerHealth = 6;
-        SceneManager.LoadScene("GraveyardScene");
+        SceneManager.LoadScene("Graveyard");
     }
 
     public void QuitGame()
