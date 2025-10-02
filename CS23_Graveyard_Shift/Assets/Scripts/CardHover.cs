@@ -47,7 +47,7 @@ public class CardHover : MonoBehaviour
     {
         int.TryParse(EnemyHealth.GetComponent<Text>().text, out int EnemyHealthValue);
 
-        EnemyHealthValue -= 1;
+        EnemyHealthValue -= cardValue;
 
         EnemyHealth.GetComponent<Text>().text = EnemyHealthValue.ToString();
     }

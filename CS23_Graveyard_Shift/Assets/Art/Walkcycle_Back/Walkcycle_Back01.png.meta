@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walkcycle_Back01_0: 6023663187300434392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
