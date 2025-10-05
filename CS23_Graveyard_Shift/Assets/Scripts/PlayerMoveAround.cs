@@ -23,8 +23,9 @@ public class PlayerMoveAround : MonoBehaviour
         //anim = gameObject.GetComponentInChildren<Animator>();
         rb2D = transform.GetComponent<Rigidbody2D>();
         InteractionText.SetActive(false);
-        
-        if (GameObject.FindWithTag("GameHandler") != null) {
+
+        if (GameObject.FindWithTag("GameHandler") != null)
+        {
             gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
         }
     }
@@ -36,18 +37,25 @@ public class PlayerMoveAround : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grave" || graveDig.CanDigGrave() == true)
+        if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave")
         {
-            InteractionText.SetActive(true);
-        }
 
+            graveDig = collision.gameObject.GetComponent<GraveDig>();
+
+            if (graveDig != null && graveDig.CanDigGrave())
+            {
+                InteractionText.SetActive(true);
+                StartCoroutine(DelayInteractionText());
+            }
+        }
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grave" || graveDig.CanDigGrave() == false)
+        if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave")
         {
             InteractionText.SetActive(false);
+            Debug.Log("Exited grave collision");
         }
     }
 
@@ -94,5 +102,9 @@ public class PlayerMoveAround : MonoBehaviour
         }
     }
 
-
+    private IEnumerator DelayInteractionText()
+    {
+        yield return new WaitForSeconds(1f);
+        InteractionText.SetActive(false);
+    }
 }
