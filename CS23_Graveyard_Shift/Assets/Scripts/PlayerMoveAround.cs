@@ -37,7 +37,7 @@ public class PlayerMoveAround : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave")
+        if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave" || collision.gameObject.tag == "HauntedGrave")
         {
 
             graveDig = collision.gameObject.GetComponent<GraveDig>();
@@ -52,7 +52,7 @@ public class PlayerMoveAround : MonoBehaviour
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave")
+        if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave" || collision.gameObject.tag == "HauntedGrave")
         {
             InteractionText.SetActive(false);
             Debug.Log("Exited grave collision");
@@ -104,7 +104,7 @@ public class PlayerMoveAround : MonoBehaviour
 
     private IEnumerator DelayInteractionText()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         InteractionText.SetActive(false);
     }
 }

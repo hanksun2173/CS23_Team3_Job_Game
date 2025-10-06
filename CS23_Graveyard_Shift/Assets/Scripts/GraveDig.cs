@@ -35,7 +35,8 @@ public class GraveDig : MonoBehaviour {
 
     public void DigGrave() {
         if (Input.GetKey(KeyCode.E)) {
-            if (CanDigGrave()) {
+            if (CanDigGrave())
+            {
                 isDug = true;
                 grave.GetComponent<SpriteRenderer>().sprite = DugGraveSprite;
                 if (gameObject.tag == "HealthGrave")
@@ -44,13 +45,22 @@ public class GraveDig : MonoBehaviour {
                     gameHandler.AddHealth(1);
                     StartCoroutine(DelayInteractionText());
                 }
+                if (gameObject.tag == "HauntedGrave") {
+                    InteractionText.SetActive(true);
+                    StartCoroutine(DelayBattleScene());
+                }
             }
         }
     }
 
-    private IEnumerator DelayInteractionText()
-    {
+    private IEnumerator DelayInteractionText() {
         yield return new WaitForSeconds(2f);
         InteractionText.SetActive(false);
+    }
+
+    private IEnumerator DelayBattleScene() {
+        yield return new WaitForSeconds(2f);
+        InteractionText.SetActive(false);
+        SceneManager.LoadScene("Battle");
     }
 }
