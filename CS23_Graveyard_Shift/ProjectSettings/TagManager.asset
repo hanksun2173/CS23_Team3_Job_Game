@@ -8,6 +8,8 @@ TagManager:
   - Fence
   - Grave
   - GameHandler
+  - HealthGrave
+  - HauntedGrave
   layers:
   - Default
   - TransparentFX
