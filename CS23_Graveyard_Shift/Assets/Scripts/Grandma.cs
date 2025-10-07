@@ -4,44 +4,56 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Grandma : MonoBehaviour {
+public class Grandma : MonoBehaviour
+{
     public GameObject grave;
     public GameObject InteractionText;
+    public GameObject GrandmaText;
     public bool isDug = false;
     public string GraveID;
     public Sprite DugGraveSprite;
     private GameHandler gameHandler;
 
 
-    void Start() {
+    void Start()
+    {
         gameHandler = GameObject.FindWithTag("GameHandler").GetComponent<GameHandler>();
-        if (gameHandler == null) {
+        if (gameHandler == null)
+        {
             Debug.LogError("GameHandler not found in scene!");
         }
         InteractionText.SetActive(false);
-        
+        GrandmaText.SetActive(false);
+
     }
 
-    void Update() {
-        if (gameHandler.health_graves_dug < 5) {
+    void Update()
+    {
+        if (gameHandler.health_graves_dug < 5)
+        {
             isDug = true;
-        } else {
+        }
+        else
+        {
             isDug = false;
         }
     }
-    
-    public bool CanDigGrave() {
+
+    public bool CanDigGrave()
+    {
         return !isDug;
     }
 
-    public void OnCollisionStay2D(Collision2D collision){
+    public void OnCollisionStay2D(Collision2D collision)
+    {
         if (collision.gameObject.tag == "Player")
         {
             DigGrave();
         }
     }
 
-    public void DigGrave() {
+    public void DigGrave()
+    {
         if (Input.GetKey(KeyCode.E))
         {
             if (CanDigGrave())
@@ -51,12 +63,24 @@ public class Grandma : MonoBehaviour {
                 InteractionText.SetActive(true);
                 StartCoroutine(DelayInteractionText());
             }
+            else
+            {
+                GrandmaText.SetActive(true);
+                StartCoroutine(DelayGrandmaText());
+            }
         }
     }
 
-    public IEnumerator DelayInteractionText() {
+    public IEnumerator DelayInteractionText()
+    {
         yield return new WaitForSeconds(2f);
         InteractionText.SetActive(false);
         SceneManager.LoadScene("WinScene");
+    }
+    
+    public IEnumerator DelayGrandmaText()
+    {
+        yield return new WaitForSeconds(2f);
+        GrandmaText.SetActive(false);
     }
 }

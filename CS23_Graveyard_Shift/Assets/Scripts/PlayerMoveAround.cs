@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMoveAround : MonoBehaviour
 {
-    //public Animator anim;
-    //public AudioSource WalkSFX;
+    public Animator anim;
+    public AudioSource WalkSFX;
     public GameObject InteractionText;
     public Rigidbody2D rb2D;
-    private bool FaceRight = true; // determine which way player is facing.
+    private bool FaceRight = true;
     public static float runSpeed = 10f;
     public float startSpeed = 10f;
     public bool isAlive = true;
@@ -82,15 +82,15 @@ public class PlayerMoveAround : MonoBehaviour
 
             if ((Input.GetAxis("Horizontal") != 0) || (Input.GetAxis("Vertical") != 0))
             {
-                //     anim.SetBool ("Walk", true);
-                //     if (!WalkSFX.isPlaying){
-                //           WalkSFX.Play();
-                //     }
+                    anim.SetBool ("Walk", true);
+                    if (!WalkSFX.isPlaying){
+                          WalkSFX.Play();
+                    }
             }
             else
             {
-                //     anim.SetBool ("Walk", false);
-                //     WalkSFX.Stop();
+                anim.SetBool ("Walk", false);
+                WalkSFX.Stop();
             }
 
             // Turning. Reverse if input is moving the Player right and Player faces left.
