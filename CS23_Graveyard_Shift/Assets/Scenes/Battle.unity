@@ -317,8 +317,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1191649313}
   - component: {fileID: 1191649312}
+  - component: {fileID: 1191649314}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,6 +395,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1191649314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191649311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc0b7bd7e36fc4187be0e0cfddcad913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyHealth: {fileID: 1110619065}
 --- !u!1 &1224941895
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cardPrefab: {fileID: 7858285798413264184, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
   templateCard: {fileID: 334530028}
+  Boss: {fileID: 1191649311}
   EnemyHealth: {fileID: 1110619065}
   CardValueDisplay: {fileID: 1526478705}
   CardSuitDisplay: {fileID: 1910215450}
@@ -866,6 +881,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4703795461028061695, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
+      propertyPath: Boss
+      value: 
+      objectReference: {fileID: 1191649311}
     - target: {fileID: 4703795461028061695, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
       propertyPath: EnemyHealth
       value: 

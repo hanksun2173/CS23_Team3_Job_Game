@@ -54,7 +54,10 @@ public class CardHover : MonoBehaviour
         Boss boss = Boss.GetComponent<Boss>();
         if (boss != null)
         {
-            boss.playCard(cardValue, cardSuit);
+            bool played = boss.playCard(cardValue, cardSuit);
+            if (played) {
+                Destroy(gameObject);
+            }
         }
     }
 }

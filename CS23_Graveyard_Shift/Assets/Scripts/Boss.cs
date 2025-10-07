@@ -18,6 +18,9 @@ public class Boss : MonoBehaviour
     private int health;
 
     public GameObject EnemyHealth;
+    public Sprite Baron;
+    public Sprite Skellyrat;
+    public Sprite Skulls;
 
     
     void Start() {
@@ -27,21 +30,32 @@ public class Boss : MonoBehaviour
         EnemyHealth.SetActive(true);
         EnemyHealth.GetComponent<Text>().text = health.ToString();
 
+        if (bossType == 0) {
+            gameObject.GetComponent<SpriteRenderer>().sprite = Baron;
+        } else if (bossType == 1) {
+            gameObject.GetComponent<SpriteRenderer>().sprite = Skellyrat;
+        } else if (bossType == 2) {
+            gameObject.GetComponent<SpriteRenderer>().sprite = Skulls;
+        }
+
         Debug.Log("generated boss:" + bossType);
     }
 
-    public void playCard(int val, int suit)
+    public bool playCard(int val, int suit)
     {
         Debug.Log("trying to play card " + val + " " + suit);
+        bool played = false;
         if (bossType == 0) {
             if (suit <= 1) {
                 // red card, allowed
                 health -= val;
+                played = true;
             }
         } else if (bossType == 1) {
             if (suit >= 2) {
                 // black card allowed
                 health -= val;
+                played = true;
             }
         } else if (bossType == 2) {
 
@@ -50,5 +64,7 @@ public class Boss : MonoBehaviour
         }
 
         EnemyHealth.GetComponent<Text>().text = health.ToString();
+
+        return played;
     }
 }
