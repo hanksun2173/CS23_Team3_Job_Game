@@ -8,6 +8,7 @@ public class GameHandler : MonoBehaviour
 {
     public GameObject Health;
     public static int playerHealth = 6;
+    public int health_graves_dug = 0;
 
     void Start()
     {
@@ -24,16 +25,19 @@ public class GameHandler : MonoBehaviour
         }
     }
 
-    public void AddHealth(int amount)
-    {
+    public void AddHealth(int amount) {
         playerHealth += amount;
         UpdateHealth();
+        health_graves_dug += 1;
     }
 
     public void RestartGame()
     {
+        Time.timeScale = 1f;
+        GameHandler_PauseMenu.GameisPaused = false;
         playerHealth = 6;
-        SceneManager.LoadScene("Graveyard");
+        SceneManager.LoadScene("Menu");
+        
     }
 
     public void QuitGame()

@@ -10,6 +10,7 @@ TagManager:
   - GameHandler
   - HealthGrave
   - HauntedGrave
+  - GrandmaGrave
   layers:
   - Default
   - TransparentFX

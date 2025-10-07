@@ -55,7 +55,6 @@ public class PlayerMoveAround : MonoBehaviour
         if (collision.gameObject.tag == "Grave" || collision.gameObject.tag == "HealthGrave" || collision.gameObject.tag == "HauntedGrave")
         {
             InteractionText.SetActive(false);
-            Debug.Log("Exited grave collision");
         }
     }
 
