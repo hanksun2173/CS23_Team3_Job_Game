@@ -8,6 +8,10 @@ public class CardGenerator : MonoBehaviour {
 
     public GameObject cardPrefab;
     public GameObject templateCard;
+
+    public GameObject EnemyHealth;
+    public GameObject CardValueDisplay;
+    public GameObject CardSuitDisplay;
     public int handSize = 5;
 
     void Start() {
@@ -27,6 +31,10 @@ public class CardGenerator : MonoBehaviour {
             {
                 hover.cardValue = value;
                 hover.cardSuit = suit;
+
+                hover.EnemyHealth = EnemyHealth;
+                hover.CardSuitDisplay = CardSuitDisplay;
+                hover.CardValueDisplay = CardValueDisplay;
             }
 
 

@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 public class CardHover : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private string[] suitMap = {"Heart", "Diamond", "Spade", "Club"};
     private Vector3 initialScale;
     public int cardValue;
     public int cardSuit;
@@ -35,6 +37,7 @@ public class CardHover : MonoBehaviour
         transform.localScale = initialScale * 1.1f;
 
         CardValueDisplay.GetComponent<Text>().text = cardValue.ToString();
+        CardSuitDisplay.GetComponent<Text>().text = suitMap[cardSuit];
     }
 
     void OnMouseExit()
@@ -42,6 +45,7 @@ public class CardHover : MonoBehaviour
         transform.localScale = initialScale;
 
         CardValueDisplay.GetComponent<Text>().text = "";
+        CardSuitDisplay.GetComponent<Text>().text = "";
     }
 
     void OnMouseDown()
