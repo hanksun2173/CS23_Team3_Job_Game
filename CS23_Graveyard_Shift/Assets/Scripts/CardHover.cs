@@ -9,11 +9,12 @@ public class CardHover : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    private string[] suitMap = {"Heart", "Diamond", "Spade", "Club"};
+    private string[] suitMap = {"♥", "♦", "♠", "♣"};
     private Vector3 initialScale;
     public int cardValue;
     public int cardSuit;
 
+    public GameObject Boss;
     public GameObject EnemyHealth;
     public GameObject CardValueDisplay;
     public GameObject CardSuitDisplay;
@@ -50,10 +51,10 @@ public class CardHover : MonoBehaviour
 
     void OnMouseDown()
     {
-        int.TryParse(EnemyHealth.GetComponent<Text>().text, out int EnemyHealthValue);
-
-        EnemyHealthValue -= cardValue;
-
-        EnemyHealth.GetComponent<Text>().text = EnemyHealthValue.ToString();
+        Boss boss = Boss.GetComponent<Boss>();
+        if (boss != null)
+        {
+            boss.playCard(cardValue, cardSuit);
+        }
     }
 }

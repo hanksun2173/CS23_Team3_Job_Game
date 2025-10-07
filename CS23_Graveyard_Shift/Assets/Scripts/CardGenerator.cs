@@ -9,6 +9,7 @@ public class CardGenerator : MonoBehaviour {
     public GameObject cardPrefab;
     public GameObject templateCard;
 
+    public GameObject Boss;
     public GameObject EnemyHealth;
     public GameObject CardValueDisplay;
     public GameObject CardSuitDisplay;
@@ -17,7 +18,7 @@ public class CardGenerator : MonoBehaviour {
     void Start() {
         for (int i = 0; i < handSize; i++) {
 
-            int value = Random.Range(0, 11);
+            int value = Random.Range(1, 11);
             int suit = Random.Range(0, 4);
 
             Debug.Log("Generated card: " + value + " of suit " + suit);
@@ -32,13 +33,11 @@ public class CardGenerator : MonoBehaviour {
                 hover.cardValue = value;
                 hover.cardSuit = suit;
 
+                hover.Boss = Boss;
                 hover.EnemyHealth = EnemyHealth;
                 hover.CardSuitDisplay = CardSuitDisplay;
                 hover.CardValueDisplay = CardValueDisplay;
             }
-
-
-
         }
     }
 }
