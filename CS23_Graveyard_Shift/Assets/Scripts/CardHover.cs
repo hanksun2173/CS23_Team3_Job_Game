@@ -9,7 +9,8 @@ public class CardHover : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Vector3 initialScale;
-    private int cardValue;
+    public int cardValue;
+    public int cardSuit;
 
     public GameObject EnemyHealth;
     public GameObject CardValueDisplay;
@@ -51,5 +52,4 @@ public class CardHover : MonoBehaviour
 
         EnemyHealth.GetComponent<Text>().text = EnemyHealthValue.ToString();
     }
-
 }

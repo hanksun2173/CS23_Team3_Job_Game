@@ -7,27 +7,30 @@ using UnityEngine.SceneManagement;
 public class CardGenerator : MonoBehaviour {
 
     public GameObject cardPrefab;
+    public GameObject templateCard;
     public int handSize = 5;
 
     void Start() {
         for (int i = 0; i < handSize; i++) {
 
-            int cardVal = Random.Range(0, 11);
-            int cardSuit = Random.Range(0, 3);
+            int value = Random.Range(0, 11);
+            int suit = Random.Range(0, 4);
 
-            
+            Debug.Log("Generated card: " + value + " of suit " + suit);
 
-            // for (int j = 0; j < i; j++) {
-            //     if (Vector2.Distance(spawnPos, SpawnPoints[j]) < 10.0f) {
-            //         spawnPos = new Vector2(
-            //             Random.Range(-spawnPosition.x, spawnPosition.x),
-            //             Random.Range(-spawnPosition.y, spawnPosition.y)
-            //         );
-            //         j = -1;
-            //     }
-            // }
-            // Instantiate(gravePrefab, spawnPos, Quaternion.identity);
-            // SpawnPoints[i] = spawnPos;
+            GameObject newCard = Instantiate(cardPrefab);
+            float xOffset = (i - 2) * 2f;
+            newCard.transform.position = templateCard.transform.position + new Vector3(xOffset, 0f, 0f);
+
+            CardHover hover = newCard.GetComponent<CardHover>();
+            if (hover != null)
+            {
+                hover.cardValue = value;
+                hover.cardSuit = suit;
+            }
+
+
+
         }
     }
 }
