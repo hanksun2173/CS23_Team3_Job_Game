@@ -389,8 +389,8 @@ Transform:
   m_GameObject: {fileID: 1191649311}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 4.45, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -408,6 +408,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyHealth: {fileID: 1110619065}
+  Baron: {fileID: -1992604301333773876, guid: f2c539b9500f84d7aacceb2ddc46b0cb, type: 3}
+  Skellyrat: {fileID: -4026784959452910206, guid: 0993a35380d474d7f8838b0009d115a7, type: 3}
+  Skulls: {fileID: 2242325055232912106, guid: cc5402cdf97414f97b8c09b62f0fb5cc, type: 3}
 --- !u!1 &1224941895
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +498,7 @@ Transform:
   m_GameObject: {fileID: 1224941895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 2.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -841,6 +844,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2940105291903084715, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4279730417209570744, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -900,6 +907,10 @@ PrefabInstance:
     - target: {fileID: 7858285798413264184, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
       propertyPath: m_Name
       value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 7858285798413264184, guid: 3890fbfe6bd3d42f699d048f2b082b4b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
