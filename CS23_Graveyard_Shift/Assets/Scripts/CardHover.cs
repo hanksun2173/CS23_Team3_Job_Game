@@ -39,6 +39,10 @@ public class CardHover : MonoBehaviour
 
         CardValueDisplay.GetComponent<Text>().text = cardValue.ToString();
         CardSuitDisplay.GetComponent<Text>().text = suitMap[cardSuit];
+        CardSuitDisplay.GetComponent<Text>().color = Color.black;
+        if (cardSuit <= 1) {
+            CardSuitDisplay.GetComponent<Text>().color = Color.red;
+        }
     }
 
     void OnMouseExit()

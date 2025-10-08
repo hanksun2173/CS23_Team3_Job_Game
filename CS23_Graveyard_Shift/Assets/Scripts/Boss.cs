@@ -24,7 +24,7 @@ public class Boss : MonoBehaviour
 
     
     void Start() {
-        bossType = Random.Range(0, 4);
+        bossType = Random.Range(0, 3);
         health = Random.Range(15, 30);
 
         EnemyHealth.SetActive(true);
@@ -58,7 +58,8 @@ public class Boss : MonoBehaviour
                 played = true;
             }
         } else if (bossType == 2) {
-
+            health -= val;
+            played = true;
         } else if (bossType == 3) {
 
         }
