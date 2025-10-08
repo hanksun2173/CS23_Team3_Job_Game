@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      skellyrat_0: 1320338518229150284
+      skellyrat_1: -4026784959452910206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
