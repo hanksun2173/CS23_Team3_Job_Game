@@ -29,7 +29,7 @@ public class Grandma : MonoBehaviour
 
     void Update()
     {
-        if (gameHandler.health_graves_dug < 5)
+        if (GameHandler.health_graves_dug < 5)
         {
             isDug = true;
         }

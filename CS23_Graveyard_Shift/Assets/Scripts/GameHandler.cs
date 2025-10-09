@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameHandler : MonoBehaviour
 {
     public GameObject Health;
-    public static int playerHealth = 6;
-    public int health_graves_dug = 0;
+    public static int playerHealth = 5;
+    public static int health_graves_dug = 0;
 
     void Start()
     {
@@ -35,7 +35,7 @@ public class GameHandler : MonoBehaviour
     {
         Time.timeScale = 1f;
         GameHandler_PauseMenu.GameisPaused = false;
-        playerHealth = 6;
+        playerHealth = 5;
         SceneManager.LoadScene("Menu");
         
     }
