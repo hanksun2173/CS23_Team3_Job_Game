@@ -13,16 +13,18 @@ public class CardHover : MonoBehaviour
     private Vector3 initialScale;
     public int cardValue;
     public int cardSuit;
+    public int cardIndex;
 
-    public GameObject Boss;
-    public GameObject EnemyHealth;
+    // public GameObject Boss;
+    // public GameObject EnemyHealth;
     public GameObject CardValueDisplay;
     public GameObject CardSuitDisplay;
+    public GameObject BattleManager;
 
     void Start()
     {
         initialScale = transform.localScale;
-        EnemyHealth.SetActive(true);
+        // EnemyHealth.SetActive(true);
         CardValueDisplay.SetActive(true);
         CardSuitDisplay.SetActive(true);
     }
@@ -55,13 +57,23 @@ public class CardHover : MonoBehaviour
 
     void OnMouseDown()
     {
-        Boss boss = Boss.GetComponent<Boss>();
-        if (boss != null)
+        BattleManager battleManager = BattleManager.GetComponent<BattleManager>();
+        if (battleManager != null)
         {
-            bool played = boss.playCard(cardValue, cardSuit);
-            if (played) {
-                Destroy(gameObject);
+            bool selected = battleManager.ClickCard(cardIndex);
+
+            if (selected)
+            {
+                transform.localScale = initialScale * 1.5f;
             }
         }
+        // Boss boss = Boss.GetComponent<Boss>();
+        // if (boss != null)
+        // {
+        //     bool played = boss.playCard(cardValue, cardSuit);
+        //     if (played) {
+        //         Destroy(gameObject);
+        //     }
+        // }
     }
 }

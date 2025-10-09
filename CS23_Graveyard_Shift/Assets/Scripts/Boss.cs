@@ -41,6 +41,10 @@ public class Boss : MonoBehaviour
         Debug.Log("generated boss:" + bossType);
     }
 
+    public bool aliveCheck() {
+        return health > 0;
+    }
+
     public bool playCard(int val, int suit)
     {
         Debug.Log("trying to play card " + val + " " + suit);
