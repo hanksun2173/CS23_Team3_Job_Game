@@ -16,6 +16,7 @@ public class BattleManager : MonoBehaviour
     public Button PlayButton;
 
     private static int handSize = 5;
+    private bool canMult = true;
     private bool[] selected = new bool[handSize];
     private GameObject[] cards = new GameObject[handSize];
 
@@ -78,16 +79,18 @@ public class BattleManager : MonoBehaviour
             }
         }
 
+        canMult = true;
         checkBossHealth();
     }
 
     public void MultiplyCards() {
         int count = selected.Count(b => b);
-        if (count != 2) {
+        if (count != 2 || !canMult) {
             // do nothing
             return;
         }
         
+        canMult = false;
         int newVal = 1;
         int first = -1;
         int second = -1;

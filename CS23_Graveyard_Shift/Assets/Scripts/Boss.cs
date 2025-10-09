@@ -25,7 +25,7 @@ public class Boss : MonoBehaviour
     
     void Start() {
         bossType = Random.Range(0, 3);
-        health = Random.Range(15, 30);
+        health = Random.Range(60, 150);
 
         EnemyHealth.SetActive(true);
         EnemyHealth.GetComponent<Text>().text = health.ToString();

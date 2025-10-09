@@ -9,7 +9,7 @@ public class CardHover : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    private string[] suitMap = {"♥", "♦", "♠", "♣"};
+    private string[] suitMap = {"Heart", "Diamond", "Spade", "Club"};
     private Vector3 initialScale;
     public int cardValue;
     public int cardSuit;
