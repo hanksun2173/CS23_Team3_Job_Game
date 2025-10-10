@@ -76,7 +76,7 @@ public class GraveDig : MonoBehaviour {
     }
 
     private IEnumerator DelayBattleScene() {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3.5f);
         InteractionText.SetActive(false);
         SceneManager.LoadScene("Battle");
     }
