@@ -24,11 +24,14 @@ public class Boss : MonoBehaviour
 
     
     void Start() {
+    }
+
+    public int generateRandom() {
         bossType = Random.Range(0, 3);
         health = Random.Range(60, 150);
 
         EnemyHealth.SetActive(true);
-        EnemyHealth.GetComponent<Text>().text = health.ToString();
+        EnemyHealth.GetComponent<Text>().text = "Enemy Health: " + health.ToString();
 
         if (bossType == 0) {
             gameObject.GetComponent<SpriteRenderer>().sprite = Baron;
@@ -39,6 +42,8 @@ public class Boss : MonoBehaviour
         }
 
         Debug.Log("generated boss:" + bossType);
+
+        return bossType;
     }
 
     public bool aliveCheck() {
@@ -66,7 +71,7 @@ public class Boss : MonoBehaviour
             played = true;
         }
 
-        EnemyHealth.GetComponent<Text>().text = health.ToString();
+        EnemyHealth.GetComponent<Text>().text = "Enemy Health: " + health.ToString();
 
         return played;
     }

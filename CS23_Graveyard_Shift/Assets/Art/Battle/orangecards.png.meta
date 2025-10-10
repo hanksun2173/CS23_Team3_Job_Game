@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e803f490e3c7467e9a1517357400fa5
+guid: 1152db999ad3c444fa451a1ba468a88a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7913284869333941183
-    second: IMG_0012_0
+      213: -4438441416160749876
+    second: orangecards_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IMG_0012_0
+      name: orangecards_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 720
+        x: 23
+        y: 24
+        width: 1234
+        height: 646
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbb7f1b89a2a1dd60800000000000000
-      internalID: 7913284869333941183
+      spriteID: cc65b514c0d7762c0800000000000000
+      internalID: -4438441416160749876
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      IMG_0012_0: 7913284869333941183
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

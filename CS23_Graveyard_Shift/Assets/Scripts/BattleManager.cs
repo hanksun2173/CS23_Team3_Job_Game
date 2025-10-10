@@ -16,9 +16,13 @@ public class BattleManager : MonoBehaviour
     public GameObject EnemyHealth;
     public Button MultButton;
     public Button PlayButton;
+    public GameObject RuleDisplay;
 
     public Sprite red;
     public Sprite black;
+    public Sprite orangeCards;
+    public Sprite blueCards;
+    public Sprite allCards;
 
     private static int handSize = 5;
     private bool canMult = true;
@@ -29,6 +33,17 @@ public class BattleManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         GenerateCards();
+        Boss boss = Boss.GetComponent<Boss>();
+        int bossType = boss.generateRandom();
+
+        if (bossType == 0) {
+            RuleDisplay.GetComponent<SpriteRenderer>().sprite = orangeCards;
+        } else if (bossType == 1) {
+            RuleDisplay.GetComponent<SpriteRenderer>().sprite = blueCards;
+        } else {
+            RuleDisplay.GetComponent<SpriteRenderer>().sprite = allCards;
+        }
+
         MultButton.onClick.AddListener(MultiplyCards);
         PlayButton.onClick.AddListener(PlayCard);
     }
@@ -96,11 +111,11 @@ public class BattleManager : MonoBehaviour
         if (count != 2 || !canMult) {
             return;
         }
-        
-        canMult = false;
+
         int newVal = 1;
         int first = -1;
         int second = -1;
+        int suit = -1;
         for (int i = 0; i < handSize; i++) {
             if (selected[i]) {
                 CardHover cardHover = cards[i].GetComponent<CardHover>();
@@ -110,20 +125,26 @@ public class BattleManager : MonoBehaviour
 
                 if (first != -1) {
                     second = i;
+                    if (cardHover.cardSuit != suit) {
+                        Debug.Log("tried multiplying different suits");
+                        return;
+                    }
                 } else {
                     first = i;
+                    suit = cardHover.cardSuit;
                 }
             }
         }
 
         Debug.Log("test mult: " + newVal + " " + first + " " + second);
 
+        canMult = false;
         DestroyCard(first);
         DestroyCard(second);
         selected[first] = false;
         selected[second] = false;
 
-        GenerateCard(first, newVal);
+        GenerateCard(first, newVal, suit);
         // GenerateCard(second);
     }
 
@@ -138,11 +159,14 @@ public class BattleManager : MonoBehaviour
         }
     }
 
-    void GenerateCard(int id, int val = -1) {
+    void GenerateCard(int id, int val = -1, int new_suit = -1) {
         int value = Random.Range(1, 11);
         int suit = Random.Range(0, 2);
         if (val != -1) {
             value = val;
+        }
+        if (new_suit != -1) {
+            suit = new_suit;
         }
         
         GameObject newCard = Instantiate(cardPrefab);
