@@ -14,6 +14,7 @@ public class CardHover : MonoBehaviour
     public int cardValue;
     public int cardSuit;
     public int cardIndex;
+    public bool selected;
 
     // public GameObject Boss;
     // public GameObject EnemyHealth;
@@ -38,7 +39,9 @@ public class CardHover : MonoBehaviour
 
     void OnMouseExit()
     {
-        transform.localScale = initialScale;
+        if (!selected) {
+            transform.localScale = initialScale;
+        }
     }
 
     void OnMouseDown()
@@ -46,11 +49,12 @@ public class CardHover : MonoBehaviour
         BattleManager battleManager = BattleManager.GetComponent<BattleManager>();
         if (battleManager != null)
         {
-            bool selected = battleManager.ClickCard(cardIndex);
-
-            if (selected)
+            bool clickStatus = battleManager.ClickCard(cardIndex);
+            selected = false;
+            if (clickStatus)
             {
-                transform.localScale = initialScale * 1.5f;
+                transform.localScale = initialScale * 1.1f;
+                selected = true;
             }
         }
     }
