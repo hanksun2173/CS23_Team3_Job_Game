@@ -38,13 +38,13 @@ public class GameHandler_PauseMenu : MonoBehaviour {
                 }
         }
 
-        public void Pause(){
-              if (!GameisPaused){
+        public void Pause() {
+            if (!GameisPaused){
                 pauseMenuUI.SetActive(true);
                 Time.timeScale = 0f;
                 GameisPaused = true;}
-             else{ Resume ();}
-             //NOTE: This added conditional is for a pause button
+            else{ Resume ();}
+            //NOTE: This added conditional is for a pause button
         }
 
         public void Resume(){

@@ -50,13 +50,13 @@ public class Boss : MonoBehaviour
         Debug.Log("trying to play card " + val + " " + suit);
         bool played = false;
         if (bossType == 0) {
-            if (suit <= 1) {
+            if (suit == 0) {
                 // red card, allowed
                 health -= val;
                 played = true;
             }
         } else if (bossType == 1) {
-            if (suit >= 2) {
+            if (suit == 1) {
                 // black card allowed
                 health -= val;
                 played = true;
@@ -64,8 +64,6 @@ public class Boss : MonoBehaviour
         } else if (bossType == 2) {
             health -= val;
             played = true;
-        } else if (bossType == 3) {
-
         }
 
         EnemyHealth.GetComponent<Text>().text = health.ToString();
