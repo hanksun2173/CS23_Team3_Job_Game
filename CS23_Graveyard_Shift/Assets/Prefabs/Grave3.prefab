@@ -151,5 +151,5 @@ MonoBehaviour:
   InteractionText: {fileID: 0}
   isDug: 0
   GraveID: 
-  DugGraveSprite: {fileID: 0}
+  DugGraveSprite: {fileID: -8436646024793883490, guid: 59a90dc42d444428582f692a7c2825a3, type: 3}
   dugColliderSize: {x: 2.5, y: 5}
