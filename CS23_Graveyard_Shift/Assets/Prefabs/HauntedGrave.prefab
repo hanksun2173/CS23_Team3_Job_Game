@@ -152,3 +152,4 @@ MonoBehaviour:
   isDug: 0
   GraveID: 
   DugGraveSprite: {fileID: -1283519026930314404, guid: ea3add5dc696840d0abb00bf1e91e3d3, type: 3}
+  dugColliderSize: {x: 2.5, y: 5}

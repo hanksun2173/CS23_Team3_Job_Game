@@ -5,20 +5,26 @@ using System.Linq;
 
 public class BattleManager : MonoBehaviour
 {
+    public Canvas canvas;
+
     public GameObject cardPrefab;
     public GameObject templateCard;
+    public GameObject cardValuePrefab;
+    public GameObject templateCardValue;
 
     public GameObject Boss;
     public GameObject EnemyHealth;
-    public GameObject CardValueDisplay;
-    public GameObject CardSuitDisplay;
     public Button MultButton;
     public Button PlayButton;
+
+    public Sprite red;
+    public Sprite black;
 
     private static int handSize = 5;
     private bool canMult = true;
     private bool[] selected = new bool[handSize];
     private GameObject[] cards = new GameObject[handSize];
+    private GameObject[] cardValues = new GameObject[handSize];
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -57,7 +63,6 @@ public class BattleManager : MonoBehaviour
     public void PlayCard() {
         int count = selected.Count(b => b);
         if (count != 1) {
-            // do nothing
             return;
         }
         
@@ -74,10 +79,13 @@ public class BattleManager : MonoBehaviour
         if (boss != null && hover != null) {
             bool played = boss.playCard(hover.cardValue, hover.cardSuit);
             if (played) {
-                Destroy(cards[selection]);
+                DestroyCard(selection);
                 selected[selection] = false;
+                GenerateCard(selection);
             }
         }
+
+        
 
         canMult = true;
         checkBossHealth();
@@ -86,7 +94,6 @@ public class BattleManager : MonoBehaviour
     public void MultiplyCards() {
         int count = selected.Count(b => b);
         if (count != 2 || !canMult) {
-            // do nothing
             return;
         }
         
@@ -111,54 +118,62 @@ public class BattleManager : MonoBehaviour
 
         Debug.Log("test mult: " + newVal + " " + first + " " + second);
 
-        Destroy(cards[first]);
-        Destroy(cards[second]);
+        DestroyCard(first);
+        DestroyCard(second);
         selected[first] = false;
         selected[second] = false;
 
-        GameObject newCard = Instantiate(cardPrefab);
-        float xOffset = (first - 2) * 2f;
-        newCard.transform.position = templateCard.transform.position + new Vector3(xOffset, 0f, 0f);
-        int suit = Random.Range(0, 4);
+        GenerateCard(first, newVal);
+        // GenerateCard(second);
+    }
 
-        CardHover hover = newCard.GetComponent<CardHover>();
-        if (hover != null) {
-            hover.cardValue = newVal;
-            hover.cardSuit = suit;
-            hover.cardIndex = first;
-
-            hover.CardSuitDisplay = CardSuitDisplay;
-            hover.CardValueDisplay = CardValueDisplay;
-            hover.BattleManager = gameObject;
-        }
-
-        cards[first] = newCard;
+    void DestroyCard(int id) {
+        Destroy(cards[id]);
+        Destroy(cardValues[id]);
     }
 
     void GenerateCards() {
         for (int i = 0; i < handSize; i++) {
-            int value = Random.Range(1, 11);
-            int suit = Random.Range(0, 4);
-
-            Debug.Log("Generated card: " + value + " of suit " + suit);
-
-            GameObject newCard = Instantiate(cardPrefab);
-            float xOffset = (i - 2) * 2f;
-            newCard.transform.position = templateCard.transform.position + new Vector3(xOffset, 0f, 0f);
-
-            CardHover hover = newCard.GetComponent<CardHover>();
-            if (hover != null) {
-                hover.cardValue = value;
-                hover.cardSuit = suit;
-                hover.cardIndex = i;
-
-                hover.CardSuitDisplay = CardSuitDisplay;
-                hover.CardValueDisplay = CardValueDisplay;
-                hover.BattleManager = gameObject;
-            }
-
-            cards[i] = newCard;
+            GenerateCard(i);
         }
+    }
+
+    void GenerateCard(int id, int val = -1) {
+        int value = Random.Range(1, 11);
+        int suit = Random.Range(0, 2);
+        if (val != -1) {
+            value = val;
+        }
+        
+        GameObject newCard = Instantiate(cardPrefab);
+        GameObject newCardValue = Instantiate(cardValuePrefab, canvas.transform);
+        float xOffset = (id - 2) * 2f;
+        newCard.transform.position = templateCard.transform.position + new Vector3(xOffset, 0f, 0f);
+        newCardValue.transform.position = templateCardValue.transform.position + new Vector3(xOffset * 53, 0f, 0f);
+
+        newCardValue.GetComponent<Text>().text = value.ToString();
+
+        // newCardValue.transform.SetParent(canvas);
+
+        newCardValue.SetActive(true);
+
+        CardHover hover = newCard.GetComponent<CardHover>();
+        if (hover != null) {
+            hover.cardValue = value;
+            hover.cardSuit = suit;
+            hover.cardIndex = id;
+
+            hover.BattleManager = gameObject;
+        }
+
+        if (suit == 0) {
+            newCard.GetComponent<SpriteRenderer>().sprite = red;
+        } else {
+            newCard.GetComponent<SpriteRenderer>().sprite = black;
+        }
+
+        cards[id] = newCard;
+        cardValues[id] = newCardValue;
     }
 
     void checkBossHealth() {

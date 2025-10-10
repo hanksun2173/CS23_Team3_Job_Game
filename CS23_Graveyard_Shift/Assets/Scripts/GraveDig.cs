@@ -10,7 +10,9 @@ public class GraveDig : MonoBehaviour {
     public bool isDug = false;
     public string GraveID;
     public Sprite DugGraveSprite;
+    public Vector2 dugColliderSize = new Vector2(2.5f, 5f);
     private GameHandler gameHandler;
+    private BoxCollider2D boxCollider;
 
 
     void Start()
@@ -20,6 +22,14 @@ public class GraveDig : MonoBehaviour {
         {
             Debug.LogError("GameHandler not found in scene!");
         }
+        
+        // Get the BoxCollider2D component
+        boxCollider = GetComponent<BoxCollider2D>();
+        if (boxCollider == null)
+        {
+            Debug.LogError("BoxCollider2D not found on " + gameObject.name);
+        }
+        
         InteractionText.SetActive(false);
     }
 
@@ -39,6 +49,13 @@ public class GraveDig : MonoBehaviour {
             {
                 isDug = true;
                 grave.GetComponent<SpriteRenderer>().sprite = DugGraveSprite;
+                
+                // Change the box collider size after digging
+                if (boxCollider != null)
+                {
+                    boxCollider.size = dugColliderSize;
+                }
+                
                 if (gameObject.tag == "HealthGrave")
                 {
                     InteractionText.SetActive(true);
