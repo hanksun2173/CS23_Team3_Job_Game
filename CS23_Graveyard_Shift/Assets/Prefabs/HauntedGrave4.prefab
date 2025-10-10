@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: -4752075026689541334}
   - component: {fileID: 3547073428643637052}
   m_Layer: 0
-  m_Name: HealthGrave4
-  m_TagString: HealthGrave
+  m_Name: HauntedGrave4
+  m_TagString: HauntedGrave
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

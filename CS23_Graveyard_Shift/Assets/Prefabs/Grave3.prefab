@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4500429889121422659}
   - component: {fileID: 7911694393611885208}
   - component: {fileID: 1560958839354584104}
+  - component: {fileID: -4046040424283519592}
   m_Layer: 0
   m_Name: Grave3
   m_TagString: Grave
@@ -134,3 +135,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4046040424283519592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3477343463830193407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53b3e22690964e7fb2775afb633d1bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grave: {fileID: 0}
+  InteractionText: {fileID: 0}
+  isDug: 0
+  GraveID: 
+  DugGraveSprite: {fileID: 0}
+  dugColliderSize: {x: 2.5, y: 5}
