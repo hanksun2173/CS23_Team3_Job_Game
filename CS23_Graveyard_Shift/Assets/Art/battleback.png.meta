@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      battleback_0: -1365696257551745805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 527083d2079e64acc989048748707d93
+guid: 6119ec640ac74434abdd265edf118313
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -320334137394714977
-    second: multbutton_0
+      213: -8671083340537551258
+    second: battleback 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: multbutton_0
+      name: battleback 2_0
       rect:
         serializedVersion: 2
         x: 106
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f96282b9cc1fd8bf0800000000000000
-      internalID: -320334137394714977
+      spriteID: 666a375a4af1aa780800000000000000
+      internalID: -8671083340537551258
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      multbutton_0: -320334137394714977
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
