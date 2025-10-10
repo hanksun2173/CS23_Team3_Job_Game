@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d93c549c49ad41b69de38d68b83ff46
+guid: dc040b3a71dc64779a3582a8c985f1d8
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -116,10 +116,10 @@ TextureImporter:
       name: battleback 3_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 720
+        x: 106
+        y: 161
+        width: 1094
+        height: 462
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
