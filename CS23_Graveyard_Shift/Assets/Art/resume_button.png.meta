@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 805adeb314c204dae9bc5849a488e70d
+guid: b44039912665e42b08538422da2b81ac
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9044316514707775681
-    second: "Screenshot 2025-10-12 at 9.34.38\u202FPM_0"
+      213: -5135859331134405123
+    second: resume_button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Screenshot 2025-10-12 at 9.34.38\u202FPM_0"
+      name: resume_button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 82
-        height: 40
+        x: 106
+        y: 161
+        width: 1094
+        height: 462
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3fd4a87c022c7280800000000000000
-      internalID: -9044316514707775681
+      spriteID: df5cb573623c9b8b0800000000000000
+      internalID: -5135859331134405123
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Screenshot 2025-10-12 at 9.34.38\u202FPM_0": -9044316514707775681
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
