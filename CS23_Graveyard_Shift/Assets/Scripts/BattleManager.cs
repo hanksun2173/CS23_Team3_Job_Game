@@ -30,6 +30,8 @@ public class BattleManager : MonoBehaviour
     private GameObject[] cards = new GameObject[handSize];
     private GameObject[] cardValues = new GameObject[handSize];
 
+    
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         GenerateCards();
