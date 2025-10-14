@@ -345,6 +345,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 83936332}
   m_CullTransparentMesh: 1
+--- !u!1 &99207252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8354534510549328562, guid: 32acfdc7e5cb14ca8a6ed14171b3e12c, type: 3}
+  m_PrefabInstance: {fileID: 122184788}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &122184788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -658,7 +663,7 @@ MonoBehaviour:
   MultButton: {fileID: 83936334}
   PlayButton: {fileID: 1335417663}
   RuleDisplay: {fileID: 1097036095}
-  GameHandler: {fileID: 0}
+  GameHandler: {fileID: 99207252}
   red: {fileID: -6410442598547967069, guid: 0e1a1b5c7148243168dd9e378d15d396, type: 3}
   black: {fileID: -2615874204119335, guid: d9d2d5a43e90546129889c5388e09810, type: 3}
   orangeCards: {fileID: -4438441416160749876, guid: 1152db999ad3c444fa451a1ba468a88a, type: 3}

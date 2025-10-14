@@ -106,12 +106,13 @@ public class BattleManager : MonoBehaviour
         }
 
         canMult = true;
-        checkBossHealth();
+        if (checkBossHealth()) {
+            return;
+        }
         GameHandler handler = GameHandler.GetComponent<GameHandler>();
         handler.TakeDamage();
 
         if (!CanMove()) {
-            Debug.Log("Cannot move");
             handler.TakeDamage();
             handler.TakeDamage();
             handler.TakeDamage();
@@ -243,12 +244,14 @@ public class BattleManager : MonoBehaviour
         cardSuits[id] = suit;
     }
 
-    void checkBossHealth() {
+    bool checkBossHealth() {
         Boss boss = Boss.GetComponent<Boss>();
         if (boss != null) {
             if (!boss.aliveCheck()) {
                 SceneManager.LoadScene("Graveyard");
+                return true;
             }
         }
+        return false;
     }
 }
