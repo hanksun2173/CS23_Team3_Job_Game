@@ -111,6 +111,7 @@ public class BattleManager : MonoBehaviour
         handler.TakeDamage();
 
         if (!CanMove()) {
+            Debug.Log("Cannot move");
             handler.TakeDamage();
             handler.TakeDamage();
             handler.TakeDamage();
