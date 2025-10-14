@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMoveAround : MonoBehaviour
 {
-    // public Animator anim;
-    // public AudioSource WalkSFX;
+    public Animator anim;
+    public AudioSource WalkSFX;
     public GameObject InteractionText;
     public Rigidbody2D rb2D;
     private bool FaceRight = true;
@@ -79,25 +79,35 @@ public class PlayerMoveAround : MonoBehaviour
         moveDirection = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
         if (isAlive == true)
         {
+            
+            anim.ResetTrigger("Still");
+            anim.ResetTrigger("Front");
+            anim.ResetTrigger("Back");
+            anim.ResetTrigger("Side_L");
+            anim.ResetTrigger("Side_R");
 
-            if ((Input.GetAxis("Horizontal") != 0) || (Input.GetAxis("Vertical") != 0))
-            {
-                    // anim.SetBool ("Walk", true);
-                    // if (!WalkSFX.isPlaying){
-                    //       WalkSFX.Play();
-                    // }
-            }
-            else
-            {
-                // anim.SetBool ("Walk", false);
-                // WalkSFX.Stop();
-            }
+        if ((moveDirection.y > 0)){
+            anim.SetTrigger("Front");
 
-            // Turning. Reverse if input is moving the Player right and Player faces left.
-            if ((moveDirection.x < 0 && !FaceRight) || (moveDirection.x > 0 && FaceRight))
-            {
-                playerTurn();
-            }
+        }                
+        else if ((moveDirection.y < 0)){
+            anim.SetTrigger("Back");
+        }                
+        else if ((moveDirection.x < 0)){
+            anim.SetTrigger("Side_L");
+        }
+        else if ((moveDirection.x > 0)){
+            anim.SetTrigger("Side_R");
+        }
+        else {
+            anim.SetTrigger("Still");
+        }
+
+        // Turning. Reverse if input is moving the Player right and Player faces left.
+        if ((moveDirection.x < 0 && !FaceRight) || (moveDirection.x > 0 && FaceRight))
+        {
+            // playerTurn();
+        }
         }
     }
 
