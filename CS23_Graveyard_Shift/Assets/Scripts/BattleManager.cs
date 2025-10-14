@@ -17,6 +17,7 @@ public class BattleManager : MonoBehaviour
     public Button MultButton;
     public Button PlayButton;
     public GameObject RuleDisplay;
+    public GameObject GameHandler;
 
     public Sprite red;
     public Sprite black;
@@ -29,14 +30,16 @@ public class BattleManager : MonoBehaviour
     private bool[] selected = new bool[handSize];
     private GameObject[] cards = new GameObject[handSize];
     private GameObject[] cardValues = new GameObject[handSize];
+    private int[] cardSuits = new int[handSize];
+    private int bossType;
 
-    
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
         GenerateCards();
         Boss boss = Boss.GetComponent<Boss>();
-        int bossType = boss.generateRandom();
+        bossType = boss.generateRandom();
 
         if (bossType == 0) {
             RuleDisplay.GetComponent<SpriteRenderer>().sprite = orangeCards;
@@ -102,10 +105,23 @@ public class BattleManager : MonoBehaviour
             }
         }
 
-        
-
         canMult = true;
         checkBossHealth();
+        GameHandler handler = GameHandler.GetComponent<GameHandler>();
+        handler.TakeDamage();
+
+        if (!CanMove()) {
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+            handler.TakeDamage();
+
+        }
     }
 
     public void MultiplyCards() {
@@ -150,9 +166,33 @@ public class BattleManager : MonoBehaviour
         // GenerateCard(second);
     }
 
+    public bool CanMove() {
+        foreach (int suit in cardSuits) {
+            if (suit == -1) {
+                continue;
+            }
+
+            if (bossType == 0) {
+                // player can make a move
+                if (suit == 0) {
+                    return false;
+                }
+            } else if (bossType == 1) {
+                if (suit == 1) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
     void DestroyCard(int id) {
         Destroy(cards[id]);
         Destroy(cardValues[id]);
+        cards[id] = null;
+        cardValues[id] = null;
+        cardSuits[id] = -1;
     }
 
     void GenerateCards() {
@@ -161,45 +201,44 @@ public class BattleManager : MonoBehaviour
         }
     }
 
-    void GenerateCard(int id, int val = -1, int new_suit = -1) {
+    void GenerateCard(int id, int val = -1, int new_suit = -1)
+    {
         int value = Random.Range(1, 11);
         int suit = Random.Range(0, 2);
-        if (val != -1) {
-            value = val;
-        }
-        if (new_suit != -1) {
-            suit = new_suit;
-        }
-        
+        if (val != -1) value = val;
+        if (new_suit != -1) suit = new_suit;
+
         GameObject newCard = Instantiate(cardPrefab);
         GameObject newCardValue = Instantiate(cardValuePrefab, canvas.transform);
+
         float xOffset = (id - 2) * 2f;
         newCard.transform.position = templateCard.transform.position + new Vector3(xOffset, 0f, 0f);
-        newCardValue.transform.position = templateCardValue.transform.position + new Vector3(xOffset * 53, 0f, 0f);
 
+        Vector3 cardScreenPos = Camera.main.WorldToScreenPoint(newCard.transform.position);
+        RectTransform canvasRect = canvas.GetComponent<RectTransform>();
+        RectTransform cardValueRect = newCardValue.GetComponent<RectTransform>();
+
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRect, cardScreenPos, canvas.worldCamera, out Vector2 localPoint);
+        cardValueRect.localPosition = localPoint + new Vector2(0f, 50f);
         newCardValue.GetComponent<Text>().text = value.ToString();
 
-        // newCardValue.transform.SetParent(canvas);
-
-        newCardValue.SetActive(true);
-
         CardHover hover = newCard.GetComponent<CardHover>();
-        if (hover != null) {
+        if (hover != null)
+        {
             hover.cardValue = value;
             hover.cardSuit = suit;
             hover.cardIndex = id;
-
             hover.BattleManager = gameObject;
         }
 
-        if (suit == 0) {
+        if (suit == 0)
             newCard.GetComponent<SpriteRenderer>().sprite = red;
-        } else {
+        else
             newCard.GetComponent<SpriteRenderer>().sprite = black;
-        }
 
         cards[id] = newCard;
         cardValues[id] = newCardValue;
+        cardSuits[id] = suit;
     }
 
     void checkBossHealth() {

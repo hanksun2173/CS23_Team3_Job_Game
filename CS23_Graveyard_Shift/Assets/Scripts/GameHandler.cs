@@ -31,6 +31,11 @@ public class GameHandler : MonoBehaviour
         health_graves_dug += 1;
     }
 
+    public void TakeDamage() {
+        playerHealth -= 1;
+        UpdateHealth();
+    }
+
     public void RestartGame()
     {
         Time.timeScale = 1f;
