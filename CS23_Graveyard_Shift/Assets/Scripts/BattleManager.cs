@@ -167,24 +167,25 @@ public class BattleManager : MonoBehaviour
     }
 
     public bool CanMove() {
+        int playableSuit = -1;
+        if (bossType == 0) {
+            playableSuit = 0;
+        } else if (bossType == 1) {
+            playableSuit = 1;
+        } else {
+            return true;
+        }
         foreach (int suit in cardSuits) {
             if (suit == -1) {
                 continue;
             }
 
-            if (bossType == 0) {
-                // player can make a move
-                if (suit == 0) {
-                    return false;
-                }
-            } else if (bossType == 1) {
-                if (suit == 1) {
-                    return false;
-                }
+            if (suit == playableSuit) {
+                return true;
             }
         }
 
-        return true;
+        return false;
     }
 
     void DestroyCard(int id) {
